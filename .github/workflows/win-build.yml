@@ -44,5 +44,5 @@ jobs:
     - name: Release
       uses: actions/upload-artifact@v4
       with:
-        name: binary
+        name: injector.exe
         path: cmd/injector.exe
